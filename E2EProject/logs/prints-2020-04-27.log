@@ -1,0 +1,8 @@
+15:41:21.950 [main] INFO  Resources.base - Validated the title
+15:41:26.337 [main] ERROR Resources.base - Navigation bar exists
+15:43:45.130 [main] INFO  Resources.base - non-restricted user
+15:43:52.275 [main] INFO  Resources.base - restricted user
+15:43:58.010 [main] INFO  Resources.base - restricted1 user
+15:44:01.138 [main] INFO  Resources.base - driver is initialized
+15:44:03.811 [main] INFO  Resources.base - navigating to the website
+15:44:11.797 [main] ERROR Resources.base - Navigation bar exists

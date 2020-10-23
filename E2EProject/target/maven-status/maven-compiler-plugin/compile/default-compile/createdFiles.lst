@@ -1,0 +1,5 @@
+pageObjects/LandingPage.class
+pageObjects/loginPage.class
+Resources/ExtentReporterNG.class
+CompleteIntegration/App.class
+Resources/base.class

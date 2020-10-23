@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="CompleteIntegration.Listeners"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test2(failed)">
+    <classes>
+      <class name="CompleteIntegration.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CompleteIntegration.ValidateNavigationBar -->
+      <class name="CompleteIntegration.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- CompleteIntegration.HomePage -->
+      <class name="CompleteIntegration.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CompleteIntegration.ValidateTitle -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)">
+    <classes>
+      <class name="CompleteIntegration.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CompleteIntegration.ValidateNavigationBar -->
+      <class name="CompleteIntegration.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CompleteIntegration.HomePage -->
+      <class name="CompleteIntegration.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="PageTitle"/>
+        </methods>
+      </class> <!-- CompleteIntegration.ValidateTitle -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test4(failed)">
+    <classes>
+      <class name="CompleteIntegration.ValidateNavigationBar">
+        <methods>
+          <include name="PageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CompleteIntegration.ValidateNavigationBar -->
+      <class name="CompleteIntegration.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CompleteIntegration.HomePage -->
+      <class name="CompleteIntegration.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CompleteIntegration.ValidateTitle -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

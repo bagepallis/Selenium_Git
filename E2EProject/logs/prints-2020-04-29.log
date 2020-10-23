@@ -1,0 +1,8 @@
+17:46:41.249 [main] INFO  Resources.base - non-restricted user
+17:46:46.927 [main] INFO  Resources.base - restricted user
+17:46:51.566 [main] INFO  Resources.base - restricted1 user
+17:46:55.125 [main] INFO  Resources.base - driver is initialized
+17:46:57.297 [main] INFO  Resources.base - navigating to the website
+17:47:08.602 [main] ERROR Resources.base - Navigation bar exists
+12:04:37.576 [main] INFO  Resources.base - non-restricted user
+12:04:42.815 [main] INFO  Resources.base - restricted user
